@@ -1,0 +1,108 @@
+*nix
+
+Essential points:
+ * rolling vs scheduled
+ * ease of installation
+ * repositories
+ * defaults
+
+Rolling vs scheduled:
+ * Release cycle
+ * (stability vs features)
+
+General defaults:
+ * linux version
+ * WM/DE
+ * package manager
+ * core utils
+ * libc
+ * other software (e.g. games, office, dev-tools etc.)
+
+WM/DE:
+ * DE uses WM
+ * DE is packaged with extra garbage
+ * X11 vs Wayland
+
+WM:
+ * floating
+ * tiling
+ * dynamic
+
+Debian
+ * apt/dpkg
+ * GNOME/XFCE/console
+ * most recent version: 10.1 (Buster)
+ * One of the oldest OS based on the linux kernel
+ * common on servers
+
+@debian.png
+
+Ubuntu
+ * Derivative of debian
+ * release every 6 months
+ * LTS every two years
+ * GNOME
+ * quite easy to install
+ * a lot of users
+
+@ubuntu.png
+
+Arch Linux:
+ * rolling release
+ * less bloat
+ * for tinkerers
+
+Manjaro:
+ * Derivative of arch
+ * Super easy to install
+ * Several default DE/WM, XFCE, i3...
+
+@manjaro.png
+
+Fedora:
+ * GNOME
+ * Probably other features, have not used it
+ * Used by Linus Torvalds
+
+@fedora.png
+
+Mint:
+ * Easy and simple
+ * Based on Ubuntu or Debian
+ * Cinnamon
+
+@mint.png
+
+openSUSE:
+ * tumbleweed
+ * KDE Plasma/GNOME 3/XFCE
+
+@opensuse.png
+
+Alpine Linux:
+ * musl (libc) and BusyBox (coreutils)
+ * Small
+ * Heavily used in containers
+ * Install to RAM
+ * Create a "makefile", to install necessary programs
+
+Gentoo:
+ * emerge/portage
+ * build almost everything from source
+ * might get faster and/or smaller binaries
+ * for people who really like to tinker
+ * for machoists
+
+LFS:
+ * Linux From Scratch
+ * This distro is a book describing the process
+ * a custom distribution designed to be yours
+
+BSD:
+ * Berkeley software distribution
+ * Not linux
+ * UNIX
+ * license
+ * MacOS is based on BSD's
+
+It does not really matter
